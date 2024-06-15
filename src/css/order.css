@@ -1,0 +1,16 @@
+.order {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.order .container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.fruits-blueberries {
+  border-radius: 10px;
+  margin-bottom: 150px;
+}
