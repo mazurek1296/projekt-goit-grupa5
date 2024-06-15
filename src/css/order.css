@@ -1,16 +1,118 @@
+/* body {
+  font-family: "DM Sans";
+  color: #000000;
+  background-color: #ffffff;
+}
+main {
+  display: block;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+} */
+
 .order {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ae1332;
 }
 
 .order .container {
-  display: flex;
+  display: block;
   align-items: center;
   margin-bottom: 80px;
+
+  padding: 188px 0;
+}
+.container-text-first {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  margin-bottom: 44px;
+}
+
+.order-title {
+  font-size: 40px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 44px;
+}
+
+.order-text {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 509px;
+  margin: 0 auto 44px;
+}
+
+.container-text-menu {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-text-menu-list {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  width: 389px;
+  height: 128px;
+  align-items: center;
+  padding: 0 10px;
+  gap: 10px;
+}
+.container-text-menu-list-div {
+  display: block;
+  background-color: #ae1332;
+  width: 300px;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+}
+.container-text-menu-list-div-second {
+  display: block;
+  background-color: #a1c864;
+  width: 290px;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+}
+.container-text-menu-list-div-third {
+  display: block;
+  background-color: #f5ce13;
+  width: 300px;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+}
+.container-text-menu-list-div-title {
+  color: white;
+  font-size: 24px;
+}
+.container-text-menu-list-text {
+  font-size: 14px;
+  color: black;
 }
 
 .fruits-blueberries {
-  border-radius: 10px;
+  max-width: 860px;
+  height: auto;
+  border-radius: 20px;
   margin-bottom: 150px;
 }
