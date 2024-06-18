@@ -1,0 +1,27 @@
+.footer-quality {
+  background-color: #ffffff;
+  display: flex;
+  width: 1280px;
+  height: 377px;
+  color: #ae1332;
+}
+
+.image-logo-quality {
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  border-radius: 100px;
+}
+.footer-menu-quality {
+  display: flex;
+}
+.footer-menu-list {
+  align-items: center;
+  size: 14px;
+  line-height: 18px;
+  list-style-type: none;
+  gap: 20px;
+  text-decoration: none;
+}
