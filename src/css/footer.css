@@ -1,6 +1,7 @@
 .footer-quality {
   background-color: #ffffff;
   display: flex;
+  align-items: baseline;
   width: 1280px;
   height: 377px;
   color: #ae1332;
@@ -24,4 +25,30 @@ img {
   list-style-type: none;
   gap: 20px;
   text-decoration: none;
+}
+
+.footer-link {
+  display: flex;
+}
+
+.footer-icon {
+  background-color: #ffffff;
+  color: #ae1332;
+  border-radius: 4px;
+  border: #ae1332;
+  list-style-type: none;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: #ab374e;
+}
+.footer-address {
+  line-height: 24px;
+  font-size: 18px;
+  display: flex;
+}
+
+.footer-address-list {
+  padding-bottom: 20px;
 }
