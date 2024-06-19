@@ -1,0 +1,47 @@
+.modal-thank-quality {
+  font-family: 'DM', sans-serif;
+  background-color: #e03f5e;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  width: 600px;
+  height: 545px;
+  border-radius: 20px;
+}
+.modal-icon {
+  color: #ffffff;
+  align-items: end;
+}
+.modal-thank-text {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-thank-picture {
+    align-items: center;
+}
+.modal-thank-heading {
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: medium;
+  max-width: 391px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  gap: 14px;
+}
+.modal-thank-item {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
