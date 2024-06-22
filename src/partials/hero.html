@@ -1,0 +1,289 @@
+<html>
+  <body>
+    <section class="hero">
+      <div class="hero_container">
+        <div class="hero_watermelon">
+          <p class="hero_watermelon_text">
+            Our expertly curated fruit baskets are made with the freshest,
+            highest quality fruits available. Whether you are looking for a
+            healthy snack or a gift for a loved one, Fresh Harvest Box has got
+            you covered.
+          </p>
+          <div class="hero_watermelon_box">
+            <p class="watermelon_box_title">Fruit</p>
+            <div class="watermelon_wrap">
+              <img
+                class="hero_watermelon_img"
+                alt="watermelon"
+                src="/src/img/images/watermelon.png"
+              />
+            </div>
+            <p class="watermelon_description">
+              Refreshing and juicy, watermelon is the perfect summer treat and a
+              great source of hydration
+            </p>
+          </div>
+        </div>
+        <div class="hero_girl">
+          <div class="hero_title">
+            <h1 class="hero_title_text">
+              fresh harvest box <br />
+              is your one-stop place for a delicious fruit basket
+            </h1>
+          </div>
+          <div class="hero_girl_box">
+            <img
+              class="hero_girl_image"
+              alt="girl-with-orange"
+              src="/src/img/images/young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink-background 1.png"
+            />
+            <a class="hero_link" href="">shop now</a>
+          </div>
+        </div>
+        <div class="hero_list">
+          <ul class="ul_list">
+            <li class="list_item">
+              <h3 class="list_text">#organic</h3>
+            </li>
+            <li class="list_item">
+              <h3 class="list_text">#products</h3>
+            </li>
+            <li class="list_item">
+              <h3 class="list_text">#basket</h3>
+            </li>
+            <li class="list_item">
+              <h3 class="list_text">#fruits</h3>
+            </li>
+          </ul>
+          <div class="hero_strawberry_box">
+            <p class="strawberry_title">Fruit</p>
+            <div class="strawberry_wrapper">
+              <img
+                class="hero_strawberry_image"
+                alt="strawberries-in-basket"
+                src="/src/img/images/kisspng-strawberry-basket-food-basket-5abcb2e34c9249 1.png"
+              />
+            </div>
+            <p class="strawberry_description">
+              Sweet and juicy, strawberries are packed with vitamin C and
+              antioxidants, making them a delicious and healthy snack
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<style>
+  body {
+    background-color: #ae1332;
+  }
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .hero_watermelon_text {
+    width: 279px;
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: start;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  .hero_watermelon_box {
+    position: relative;
+    text-align: center;
+    width: 249px;
+    min-height: 387px;
+    border: 1px solid transparent;
+    border-radius: 500px;
+    background-color: #a4cb66;
+  }
+  .watermelon_box_title {
+    padding-top: 28px;
+    padding-bottom: 62px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  .watermelon_wrap {
+    text-align: center;
+  }
+  .hero_watermelon_img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .watermelon_description {
+    width: 155px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 auto 40px;
+  }
+
+  .hero_girl {
+    position: relative;
+    margin-bottom: 84px;
+  }
+  .hero_title {
+    position: absolute;
+    z-index: 2;
+  }
+  .hero_title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .hero_title_text {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .hero_title::before {
+    width: 120px;
+    height: 120px;
+    right: 32px;
+    top: -25px;
+    background-image: url(/src/img/images/banana.png);
+    background-size: 120px 120px;
+    filter: blur(3.5px);
+    position: absolute;
+    z-index: -1;
+  }
+  .hero_title::after {
+    width: 186px;
+    height: 124px;
+    left: 38px;
+    bottom: -81px;
+    background-image: url(/src/img/images/strawberry.png);
+    background-size: 186px 124px;
+    filter: blur(4px);
+    position: absolute;
+    transform: rotate(20deg);
+    z-index: -1;
+  }
+  .hero_girl_box {
+    position: relative;
+  }
+  .hero_girl_image {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 19px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 500px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .hero_link {
+    width: 114px;
+    height: 114px;
+    margin-top: -57px;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ae1332;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    transform: rotate(-14deg);
+  }
+  .hero_list {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+  .ul_list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 96px;
+    justify-content: right;
+    width: 270px;
+    margin-top: 44px;
+  }
+  .list_item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 1000px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .list_text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  .hero_strawberry_box {
+    background: #f5ce13;
+    position: relative;
+    text-align: center;
+    width: 249px;
+    min-height: 387px;
+    border: 1px solid transparent;
+    border-radius: 500px;
+  }
+  .strawberry_title {
+    padding-top: 28px;
+    padding-bottom: 19px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    text-align: center;
+  }
+  .strawberry_wrapper {
+    text-align: center;
+  }
+  .hero_strawberry_image {
+    text-align: center;
+    margin: 0 auto 17px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .strawberry_description {
+    width: 155px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 auto 40px;
+  }
+</style>
