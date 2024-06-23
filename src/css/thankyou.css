@@ -1,4 +1,4 @@
-.modal-thank-quality {
+.thankyou {
   font-family: 'DM', sans-serif;
   background-color: #e03f5e;
   display: flex;
@@ -7,13 +7,18 @@
   flex-direction: column;
   justify-content: center;
   background-size: cover;
-  width: 600px;
-  height: 545px;
+  border: #e03f5e;
+  max-width: 600px;
+  max-height: 545px;
   border-radius: 20px;
 }
-.modal-icon {
+.row {
   color: #ffffff;
   align-items: end;
+  border: #e03f5e;
+  background-color: #e03f5e;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 .modal-thank-text {
   color: #ffffff;
@@ -44,4 +49,6 @@
   line-height: 18px;
   letter-spacing: 0.04em;
   text-align: center;
+  padding-bottom: 80px;
+  padding-right: 105px;
 }
