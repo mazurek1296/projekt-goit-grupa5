@@ -1,0 +1,33 @@
+.order {
+  background-color: #ffffff;
+  border: #ffffff;
+  border-radius: 20px;
+  height: 891px;
+  width: 911px;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+.cross-quality {
+  background-color: #ffffff;
+  color: #ae1332;
+  border: #ffffff;
+  height: 28px;
+  width: 28px;
+  align-items: flex-end;
+}
+
+.order-text {
+  color: #ae1332;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  font-weight: medium;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.order-form {
+  border-radius: 100%;
+  border: #000000;
+}
