@@ -34,10 +34,21 @@
 
 .order-butt-quality {
   background-color: #9dc162;
+  border: #9dc162;
   border-radius: 100%;
+  width: 114px;
+  height: 48px;
+  padding-top: 20px;
+}
+.order-butt-text {
   color: #ffffff;
   text-align: center;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
+}
+.order-picture-quality {
+  background-color: #ffffff;
+  width: 471px;
+  height: 458px;
 }
