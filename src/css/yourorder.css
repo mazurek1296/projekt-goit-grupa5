@@ -31,3 +31,13 @@
   border-radius: 100%;
   border: #000000;
 }
+
+.order-butt-quality {
+  background-color: #9dc162;
+  border-radius: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+}
